@@ -1,15 +1,15 @@
 package pl.gralewicz.kamil.java.app.notebook.notebook.controller.model;
 
-public class Notes {
+public class Note {
 
     private Long id;
     private String title;
     private String content;
 
-    public Notes() {
+    public Note() {
     }
 
-    public Notes(Long id, String title, String content) {
+    public Note(Long id, String title, String content) {
         this.id = id;
         this.title = title;
         this.content = content;
